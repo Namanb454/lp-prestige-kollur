@@ -68,7 +68,7 @@ export default function ThankYouPage() {
                     Thank You!
                 </h1>
                 <p className="text-[1.1rem] text-gray-700 mb-0 leading-relaxed">
-                    We appreciate your interest in <span className="font-semibold text-[#a78a41]">Birla Evara</span>.
+                    We appreciate your interest in <span className="font-semibold text-[#a78a41]">Prestige Kollur</span>.
                 </p>
                 <p className="text-[1rem] text-gray-600 mb-4 leading-relaxed">
                     Our team will get in touch with you shortly to assist you.

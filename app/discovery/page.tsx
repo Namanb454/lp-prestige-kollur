@@ -37,8 +37,8 @@ export default function Home() {
                 <div className="max-w-[1280px] mx-auto grid grid-cols-2 gap-16 items-center max-lg:grid-cols-1 max-lg:gap-8">
                     <ScrollAnimation animation="slide-in-right" duration={0.8} className="relative rounded-[12px] overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.12)] before:content-[''] before:absolute before:top-[-20px] before:left-[-20px] before:w-[120px] before:h-[120px] before:border-2 before:border-[#ddb468] before:rounded-[8px] before:z-[-1] before:opacity-40 col-span-1 w-full h-full aspect-sqaure">
                         <Image
-                            src="/images/evara2.webp"
-                            alt="Birla Evara Luxury Living"
+                            src="/images/gallery6.webp"
+                            alt="Prestige Kollur Luxury Living"
                             width={640}
                             height={440}
                             style={{ width: "100%", height: "100%", display: "block" }}
@@ -49,10 +49,10 @@ export default function Home() {
                     <ScrollAnimation animation="slide-in-left" duration={0.8} delay={0.2}>
                         <p className="inline-block text-[0.7rem] tracking-[3px] uppercase text-[#ddb468] font-semibold mb-2.5 font-gobold-light">About The Project</p>
                         <h2 className="text-[2.6rem] leading-[1.2] mb-4 max-md:text-[2rem]">
-                            Unveiling the New Towers At <span className="tracking-wide text-[#a78a41]">Birla Evara</span> The Bright Side of Bengaluru
+                            Unveiling the New Towers At <span className="tracking-wide text-[#a78a41]">Prestige Kollur</span> The Bright Side of Bengaluru
                         </h2>
                         <p className="text-[1.05rem] leading-[1.8] text-[#8a8a9a] max-w-[620px]">
-                            Welcome to Birla Evara Sarjapur Road, Bangalore. An new launch residential project by Birla Estates. Offering 3 & 4 BHK apartments for sale in Sarjapur Road. Introducing the epitome of luxurious living nestled in the heart of Sarjapur Road, Bangalore. Envisioned to redefine urban lifestyle, Birla Sarjapur Road new launch promises a harmonious blend of contemporary design, unparalleled amenities, and unmatched convenience. Explore our meticulously crafted 3 & 4 BHK apartments designed to elevate your living experience to new heights.
+                            Prestige Kollur is a premium residential township located in Kollur, one of the fastest developing residential corridors in West Hyderabad. Developed by Prestige Group, the project is designed to offer modern homes with spacious layouts, premium amenities, and lush green surroundings. Spread across approximately 28 acres, the development will feature 10–12 high-rise towers offering panoramic views. It provides a balanced lifestyle with well-designed apartments, world-class recreational amenities, and excellent connectivity.
                         </p>
 
                         <div className="grid grid-cols-3 gap-6 my-8 max-md:grid-cols-1">
@@ -116,8 +116,8 @@ export default function Home() {
                     <div className="footer-brand">
                         <div className="text-xl md:text-2xl font-bold text-[#a78a41] uppercase tracking-[2px] my-auto">Prestige Kollur</div>
                         <p className="text-[0.9rem] leading-[1.7] my-4">
-                            Birla Evara by Birla Estates — an iconic landmark that merges
-                            luxury, sustainability, and connectivity in Pune&apos;s most
+                            Prestige Kollur by Prestige Group — an iconic landmark that merges
+                            luxury, sustainability, and connectivity in West Hyderabad&apos;s most
                             prestigious neighbourhood.
                         </p>
                     </div>
@@ -136,7 +136,7 @@ export default function Home() {
                     <div>
                         <h4 className="text-white text-[1rem] mb-5 relative pb-2.5 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-[30px] after:h-[2px] after:bg-[#ddb468]">Legal</h4>
                         <ul className="list-none">
-                            <li className="mb-2.5"><a href="#floor-plan" className="text-white/80 no-underline text-[0.85rem]">BIRLA EVARA Sarajapur RERA No.:<br /><span className="font-semibold text-white/90">
+                            <li className="mb-2.5"><a href="#floor-plan" className="text-white/80 no-underline text-[0.85rem]">Prestige Kollur Sarajapur RERA No.:<br /><span className="font-semibold text-white/90">
                                 PRM/KA/RERA/1251/446/PR/060225/007487</span></a></li>
                             <li className="mb-2.5"><a href="#floor-plan" className="text-white/80 no-underline text-[0.85rem]">Agent RERA No.: <br />
                                 <span className="font-semibold text-white/90">
@@ -147,6 +147,9 @@ export default function Home() {
                         </ul>
                     </div>
 
+                </div>
+                <div className="max-w-[1280px] mx-auto mt-12 pt-8 border-t border-[rgba(201,169,110,0.2)]">
+                    <p className="text-[0.75rem] text-white/50 text-justify leading-relaxed">Disclaimer: The content provided on this website is for information purposes only & does not constitute an offer to avail any service. The prices mentioned are subject to change without prior notice, and the availability of properties mentioned is not guaranteed. The images displayed on the website are for representation purposes only and may not reflect the actual properties accurately. Please note that this is the official website of an authorized marketing partner. We may share data with Real Estate Regulatory Authority (RERA) registered brokers/companies for further processing as required.</p>
                 </div>
             </footer>
             <StickyCTA />
