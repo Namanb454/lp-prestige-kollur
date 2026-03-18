@@ -12,9 +12,9 @@ const LocationMap = dynamic(() => import('@/app/components/LocationMap'));
 const Gallery = dynamic(() => import('@/app/components/Gallery'));
 const FloorPlans = dynamic(() => import('@/app/components/FloorPlans'));
 const FAQs = dynamic(() => import('@/app/components/FAQs'));
-const Chatbot = dynamic(() => import('@/app/components/Chatbot'));
 const StickyCTA = dynamic(() => import('@/app/components/StickyCTA'));
 const ScrollAnimation = dynamic(() => import('@/app/components/ScrollAnimation'));
+const FloatingButtons = dynamic(() => import('@/app/components/FloatingButtons'));
 
 export default function Home() {
   const amenities = [
@@ -116,13 +116,13 @@ export default function Home() {
       <FAQs />
 
       {/* ════════ FOOTER ════════ */}
-      <footer className="bg-gradient-to-bl from-[#a78a41] from-[50%] to-black to-[10%] text-white/80 pt-16 px-8 pb-20">
+      <footer className="bg-gradient-to-bl from-[#a78a41] from-[50%] to-black to-[10%] text-white/80 pt-16 px-8">
         <div className="max-w-[1280px] mx-auto grid grid-cols-3 gap-12 max-lg:grid-cols-2 max-md:grid-cols-1">
           <div className="footer-brand">
             <Image src='/images/logo.png' width={120} height={120} alt="Logo" className="w-40" />
             <p className="text-[0.9rem] leading-[1.7] my-4">
               Prestige Kollur by Prestige Group — an iconic landmark that merges
-              luxury, sustainability, and connectivity in West Hyderabad's most
+              luxury, sustainability, and connectivity in West Hyderabad&apos;s most
               prestigious neighbourhood.
             </p>
           </div>
@@ -151,11 +151,13 @@ export default function Home() {
               <li className="mb-2.5"><a href="/privacy-policy/" className="font-semibold text-white/90 no-underline text-[0.85rem] transition-colors duration-300 hover:text-[#ddb468]">Disclaimer & Privacy Policy</a></li>
             </ul>
           </div>
-
         </div>
+        <p className="p-5 px-20 text-white/60 border-t no-underline text-[0.85rem] transition-colors duration-300 hover:text-[#ddb468]">
+          Disclaimer: The content provided on this website is for information purposes only & does not constitute an offer to avail any service. The prices mentioned are subject to change without prior notice, and the availability of properties mentioned is not guaranteed. The images displayed on the website are for representation purposes only and may not reflect the actual properties accurately. Please note that this is the official website of an authorized marketing partner. We may share data with Real Estate Regulatory Authority (RERA) registered brokers/companies for further processing as required.
+        </p>
       </footer>
       <StickyCTA />
-      <Chatbot />
+      <FloatingButtons />
     </>
   );
 }
