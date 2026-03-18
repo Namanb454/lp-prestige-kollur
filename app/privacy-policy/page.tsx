@@ -143,12 +143,7 @@ export default function PrivacyPolicy() {
             {/* Simple Footer for Subpages */}
             <footer className="bg-gradient-to-bl from-[#a78a41] from-[50%] to-black to-[10%] text-white/80 py-8 px-8 text-center mt-auto">
                 <a href="/" target="_blank" className="text-[0.9rem] mb-4 underline underline-offset-4">Back to Prestige Kollur</a>
-                <div className="max-w-[1000px] mx-auto border-t border-[rgba(201,169,110,0.2)] pt-6">
-                    <p className="text-[0.75rem] text-white/50 text-justify leading-relaxed">Disclaimer: The content provided on this website is for information purposes only & does not constitute an offer to avail any service. The prices mentioned are subject to change without prior notice, and the availability of properties mentioned is not guaranteed. The images displayed on the website are for representation purposes only and may not reflect the actual properties accurately. Please note that this is the official website of an authorized marketing partner. We may share data with Real Estate Regulatory Authority (RERA) registered brokers/companies for further processing as required.</p>
-                </div>
             </footer>
-
-            <StickyCTA />
         </>
     );
 }
