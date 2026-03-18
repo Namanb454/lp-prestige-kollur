@@ -39,7 +39,7 @@ export default function Home() {
           <ScrollAnimation animation="slide-in-right" duration={0.8} className="relative rounded-[12px] overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.12)] before:content-[''] before:absolute before:top-[-20px] before:left-[-20px] before:w-[120px] before:h-[120px] before:border-2 before:border-[#ddb468] before:rounded-[8px] before:z-[-1] before:opacity-40 col-span-1 w-full h-full aspect-sqaure">
             <Image
               src="/images/gallery6.webp"
-              alt="Birla Evara Luxury Living"
+              alt="Prestige Kollur Luxury Living"
               width={1000}
               height={1000}
               style={{ width: "100%", height: "100%", display: "block" }}
@@ -152,9 +152,6 @@ export default function Home() {
             </ul>
           </div>
 
-        </div>
-        <div className="max-w-[1280px] mx-auto mt-12 pt-8 border-t border-[rgba(201,169,110,0.2)]">
-          <p className="text-[0.75rem] text-white/50 text-justify leading-relaxed">Disclaimer: The content provided on this website is for information purposes only & does not constitute an offer to avail any service. The prices mentioned are subject to change without prior notice, and the availability of properties mentioned is not guaranteed. The images displayed on the website are for representation purposes only and may not reflect the actual properties accurately. Please note that this is the official website of an authorized marketing partner. We may share data with Real Estate Regulatory Authority (RERA) registered brokers/companies for further processing as required.</p>
         </div>
       </footer>
       <StickyCTA />
