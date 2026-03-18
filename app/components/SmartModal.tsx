@@ -172,7 +172,7 @@ export default function SmartModal() {
                 >
                     ✕
                 </button>
-                <Image src="/images/logo.png" alt="Logo" width={100} height={100} className="mb-4" />
+                <Image src='/images/logo.png' alt="logo" width={100} height={100} className="my-3" />
                 <h3 className="text-[#a78a41] text-[1.6rem]">Enquire Now</h3>
                 <p className="text-[0.85rem] tracking-wide mb-6 border-b border-gray-100 pb-4 text-gray-500">Instant Access to Brochure & Floor Plans</p>
 

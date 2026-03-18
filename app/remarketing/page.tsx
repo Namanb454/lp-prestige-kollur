@@ -114,14 +114,7 @@ export default function Home() {
             <footer className="bg-gradient-to-bl from-[#a78a41] from-[50%] to-black to-[10%] text-white/80 pt-16 px-8 pb-20">
                 <div className="max-w-[1280px] mx-auto grid grid-cols-3 gap-12 max-lg:grid-cols-2 max-md:grid-cols-1">
                     <div className="footer-brand">
-                        <Image
-                            src="/images/logo.png"
-                            alt="Birla Evara"
-                            width={130}
-                            height={44}
-                            className="mix-blend-color-light"
-                        // style={{ filter: "brightness(0) invert(1)" }}
-                        />
+                        <div className="text-xl md:text-2xl font-bold text-[#a78a41] uppercase tracking-[2px] my-auto">Prestige Kollur</div>
                         <p className="text-[0.9rem] leading-[1.7] my-4">
                             Birla Evara by Birla Estates — an iconic landmark that merges
                             luxury, sustainability, and connectivity in Pune&apos;s most

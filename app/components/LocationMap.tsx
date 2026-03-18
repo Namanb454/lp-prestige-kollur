@@ -251,7 +251,7 @@ export default function LocationMap() {
                         >
                             ✕
                         </button>
-                        <Image src="/images/logo.png" alt="Logo" width={100} height={100} className="mb-4" />
+                        <div className="text-xl md:text-2xl font-bold text-[#a78a41] uppercase tracking-[2px] my-auto">Prestige Kollur</div>
 
                         <h3 className="text-[#a78a41] text-[1.6rem]">View Location</h3>
                         <p className="text-[0.85rem] tracking-wide mb-6 border-b border-gray-100 pb-4 text-gray-500">Fill details to unlock the map</p>

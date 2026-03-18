@@ -3,15 +3,15 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Birla Evara | Luxury Residences in Pune",
+  title: "Prestige Kollur",
   description:
-    "Experience unparalleled luxury at Birla Evara – premium 2, 3 & 4 BHK residences in Baner-Balewadi, Pune. World-class amenities, breathtaking views, and an address that defines elegance.",
+    "Experience unparalleled luxury at Prestige Kollur – premium 2, 3 & 4 BHK residences in Kollur, Hyderabad. World-class amenities, breathtaking views, and an address that defines elegance.",
   keywords:
-    "Birla Evara, luxury apartments Pune, Birla Homes, Baner Balewadi, premium residences, real estate Pune",
+    "Prestige Kollur, luxury apartments Hyderabad, Prestige Group, Kollur, premium residences, real estate Hyderabad",
   openGraph: {
-    title: "Birla Evara | Luxury Residences in Pune",
+    title: "Prestige Kollur Hyderabad",
     description:
-      "Experience unparalleled luxury at Birla Evara – premium residences in Baner-Balewadi, Pune.",
+      "Experience unparalleled luxury at Prestige Kollur – premium residences in Kollur, Hyderabad.",
     type: "website",
   },
   icons: {
@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=AW-16657781358"
+        src="https://www.googletagmanager.com/gtag/js?id=AW-17399506442"
         strategy="afterInteractive"
       />
       <Script id="google-ads-gtag" strategy="afterInteractive">
@@ -35,7 +35,7 @@ export default function RootLayout({
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'AW-16657781358');
+          gtag('config', 'AW-17399506442');
         `}
       </Script>
       <Script id="meta-pixel" strategy="afterInteractive">

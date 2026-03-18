@@ -12,12 +12,7 @@ export default function Navbar() {
             <nav className="relative w-full z-[100] bg-white shadow-md py-2">
                 <div className="max-w-[1280px] mx-auto px-8 flex items-center justify-between">
                     <a href="/">
-                        <Image
-                            src="/images/logo.png"
-                            alt="Prestige Kollur Logo"
-                            width={140}
-                            height={140}
-                        />
+                        <Image src='/images/logo.png' width={120} height={120} alt="Logo" className="w-40" />
                     </a>
 
                     <div className={`absolute top-[100%] left-0 w-full bg-white shadow-xl flex flex-col p-6 border-t border-gray-100 transition-all duration-300 origin-top ${menuOpen ? "scale-y-100 opacity-100 visible" : "scale-y-0 opacity-0 invisible"} md:static md:w-auto md:bg-transparent md:shadow-none md:flex-row md:p-0 md:border-none md:scale-y-100 md:opacity-100 md:visible md:flex md:gap-8`}>

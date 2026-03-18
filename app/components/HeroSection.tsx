@@ -109,7 +109,7 @@ export default function HeroSection() {
                                     <span key={j} className="flex items-center text-sm md:text-sm font-semibold tracking-widest uppercase text-white/95">
                                         Luxury 2, 3 & 4 BHK Apartments
                                         <span className="mx-4 md:mx-8 text-[#a88a4e] opacity-80 text-[0.6rem] md:text-xs">|</span>
-                                        Starting from ₹1.1 Cr* Onwards
+                                        Starting from ₹1.05 Cr*
                                         <span className="mx-4 md:mx-8 text-[#a88a4e] opacity-80 text-[0.6rem] md:text-xs">|</span>
                                         Mega Township Development
                                         <span className="mx-4 md:mx-8 text-[#a88a4e] opacity-80 text-[0.6rem] md:text-xs">|</span>
@@ -165,7 +165,7 @@ export default function HeroSection() {
                         </div>
                         <div className=" flex justify-between items-center">
                             <p className="font-medium text-gray-800 text-sm">Price Starting From</p>
-                            <p className={`text-[#a78a41] italic text-base font-semibold`}>₹ 1.1 Cr*</p>
+                            <p className={`text-[#a78a41] italic text-base font-semibold`}>₹ 1.05 Cr*</p>
                         </div>
                     </div>
 
@@ -176,29 +176,6 @@ export default function HeroSection() {
                         Download Brochure
                     </button> */}
 
-                    {/* Promotional Timer */}
-                    <div className="mt-2 bg-white rounded-xl p-2 text-center animate-pulse-glow shadow-md relative overflow-hidden">
-                        <div className="absolute inset-0 animate-pulse"></div>
-                        <p className="text-[#a78a41] text-[0.8rem] font-black uppercase tracking-wider mb-2 relative z-10 flex items-center justify-center gap-2">
-                            <span className="w-2 h-2 rounded-full bg-red-500 animate-ping"></span> Launch Offer Ends In
-                        </p>
-                        <div className="flex justify-center gap-3 text-[#a78a41] relative z-10">
-                            <div className="flex flex-col items-center">
-                                <span className="text-lg font-black bg-[#a78a41] text-white w-10 h-10 flex items-center justify-center rounded-[8px] shadow-md border-b-4 border-[#000000]">{timeLeft ? timeLeft.hours.toString().padStart(2, '0') : '23'}</span>
-                                <span className="text-[0.65rem] uppercase tracking-wider mt-0 font-bold text-gray-600">Hours</span>
-                            </div>
-                            <span className="text-lg font-black mt-0 opacity-80 animate-pulse">:</span>
-                            <div className="flex flex-col items-center">
-                                <span className="text-lg font-black bg-[#a78a41] text-white w-10 h-10 flex items-center justify-center rounded-[8px] shadow-md border-b-4 border-[#000000]">{timeLeft ? timeLeft.minutes.toString().padStart(2, '0') : '59'}</span>
-                                <span className="text-[0.65rem] uppercase tracking-wider mt-0 font-bold text-gray-600">Mins</span>
-                            </div>
-                            <span className="text-lg font-black mt-0 opacity-80 animate-pulse">:</span>
-                            <div className="flex flex-col items-center">
-                                <span className="text-lg font-black bg-[#a78a41] text-white w-10 h-10 flex items-center justify-center rounded-[8px] shadow-md border-b-4 border-[#000000]">{timeLeft ? timeLeft.seconds.toString().padStart(2, '0') : '59'}</span>
-                                <span className="text-[0.65rem] uppercase tracking-wider mt-0 font-bold text-gray-600">Secs</span>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>

@@ -13,7 +13,7 @@ export default function FloorPlans() {
             type: "2 BHK",
             category: "2 BHK",
             size: "1100 - 1300 Sq Ft",
-            price: "₹1.1 Cr* Onwards",
+            price: "₹1.05 Cr*",
         },
         {
             type: "2 BHK + Study",
@@ -119,7 +119,7 @@ export default function FloorPlans() {
                                 delay={i * 0.1}
                                 className="flex-none w-full md:w-[calc(50%-12px)] lg:w-[calc(33.33%-16px)] snap-start bg-white rounded-[14px] overflow-hidden shadow-[0_4px_30px_rgba(0,0,0,0.06)] border border-[rgba(201,169,110,0.1)] transition-all duration-400 hover:-translate-y-1.5 hover:shadow-[0_12px_40px_rgba(0,0,0,0.12)]"
                             >
-                                <div className="bg-[#a78a41] p-6 px-6 text-center">
+                                <div className="bg-neutral-800 p-6 px-6 text-center">
                                     <h3 className="text-white text-[1.3rem] mb-1">{plan.type} Residence</h3>
                                     <p className="text-white/80 text-[1rem] font-medium">{plan.size}</p>
                                 </div>
@@ -159,7 +159,7 @@ export default function FloorPlans() {
                 <div className="mb-16">
                     <ScrollAnimation animation="zoom-in">
                         <div className="bg-white rounded-[14px] overflow-hidden shadow-[0_4px_30px_rgba(0,0,0,0.06)] border border-[rgba(201,169,110,0.1)] transition-all duration-400">
-                            <div className="bg-[#a78a41] p-6 px-6 text-center">
+                            <div className="bg-neutral-800 p-6 px-6 text-center">
                                 <h3 className="text-white text-[1.5rem] mb-1">Master Plan</h3>
                                 <p className="text-white/80 text-[1rem] font-medium">Project Layout</p>
                             </div>

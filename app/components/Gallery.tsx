@@ -8,12 +8,12 @@ export default function Gallery() {
     const galleryRef = useRef<HTMLDivElement>(null);
 
     const galleryImages = [
-        { src: "/images/gallery1.webp", alt: "Prestige Kollur Exterior" },
-        { src: "/images/gallery2.webp", alt: "Prestige Kollur Exterior" },
-        { src: "/images/gallery3.webp", alt: "Prestige Kollur Living" },
-        { src: "/images/gallery6.webp", alt: "Prestige Kollur Living" },
-        { src: "/images/gallery4.webp", alt: "Prestige Kollur Amenities" },
-        { src: "/images/gallery5.webp", alt: "Prestige Kollur Exterior" },
+        { src: "/images/gallery1.webp", alt: "Prestige Exterior" },
+        { src: "/images/gallery2.webp", alt: "Prestige Exterior" },
+        { src: "/images/gallery3.webp", alt: "Prestige Living" },
+        { src: "/images/gallery6.webp", alt: "Prestige Living" },
+        { src: "/images/gallery4.webp", alt: "Prestige Amenities" },
+        { src: "/images/gallery5.webp", alt: "Prestige Exterior" },
     ];
 
     const scrollGallery = (dir: number) => {
@@ -30,7 +30,7 @@ export default function Gallery() {
                         <h2 className="text-[2.6rem] leading-[1.2] mb-4 max-md:text-[2rem]">A Glimpse of the <span className="text-[#a78a41] tracking-wide">Luxury</span></h2>
                         <p className="text-[1.05rem] leading-[1.8] text-[#8a8a9a] max-w-[620px] mx-auto">
                             Explore the architectural brilliance that
-                            define Prestige Kollur.
+                            define Prestige.
                         </p>
                     </div>
                 </ScrollAnimation>

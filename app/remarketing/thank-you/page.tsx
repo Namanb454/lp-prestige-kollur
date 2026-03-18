@@ -18,7 +18,7 @@ export default function ThankYouPage() {
         }
 
         // Fire Google Ads conversion event
-        window.gtag?.('event', 'conversion', { 'send_to': 'AW-16657781358/mtkuCOnM_OgbEO6khoc' });
+        window.gtag?.('event', 'conversion', { 'send_to': 'AW-17399506442/W6hpCNLv4YocEIrM3ehA' });
 
         // Fire Meta Pixel Lead event
         if (typeof window.fbq === 'function') {
@@ -43,13 +43,7 @@ export default function ThankYouPage() {
             <div className="max-w-[600px] w-full bg-white rounded-[20px] shadow-2xl p-12 text-center border-t-4 border-[#a78a41]">
                 {/* Logo */}
                 <div className="flex justify-center mb-4">
-                    <Image
-                        src="/images/logo.png"
-                        alt="Birla Evara Logo"
-                        width={120}
-                        height={60}
-                        priority
-                    />
+                    <div className="text-xl md:text-2xl font-bold text-[#a78a41] uppercase tracking-[2px] my-auto">Prestige Kollur</div>
                 </div>
 
                 {/* Success Icon */}
